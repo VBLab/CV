@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 1% 27% 1% 27%;
+    font-family:helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+nav{
+    color:#EFFFCD;
+    width:100%;
+    background-color: #555152;
+    height:5%;
+}
+
+nav table{
+    width: 30%;
+    padding-left : 2%;
+    
+}
+
+ul{
+    list-style:none;
+    line-height:1.3em;
+    padding-top:0.8em;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+p{
+    padding-top:0.8em;
+    padding-left:5%;
+    padding: 5%;
+    line-height:1.5em;
+}
+
+.flex-container1{
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+#gauche{
+    width: 30%;
+    height: auto;
+    background-color:#EFFFCD;
+    margin:0;
+}
+
+#info p{
+    margin-top:1em;
+    padding-left: 0.5em;
+    padding-right: 0em;
+    line-height:1.5em;
+}
+
+.boxL{
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.boxL h3{
+    color:#EFFFCD;
+    text-align:center;
+    line-height:40px;
+    background-color:#555152;
+}
+
+#droite{
+    width:70%;
+    height:auto;
+    background-color:#FBFBF8;
+    margin:0;
+}
+
+.flex-container2{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    background-color:#555152;
+    margin-top:3%;
+    margin-bottom:5%;
+    padding-left:3%;
+    padding-right:3%;
+    height:35%;
+    color: #EFFFCD;
+    font-size:1.8em;
+    text-align:center;
+}
+
+ .flex-container2 img{
+    border-radius:100px;
+    border: solid #EFFFCD;
+}
+
+.boxR{
+    margin-bottom:5%;
+    padding-right:30px;
+    padding-left:30px;
+}
+
+.boxR h2{
+    
+    color:#EFFFCD;
+    text-align:center;
+    line-height:40px;
+    background-color:#555152;
+    
+}
+
+footer{
+    display:flex;
+    align-items:stretch;
+    justify-content:space-between;
+    width:100%; 
+    background-color: #555152;
+    color:#EFFFCD;
+    
+}
+
+a {
+    text-decoration:none;
+    font-family: impact;
+    color:#EFFFCD;
+}
+
+a:hover {
+    background-color: gold;
+}
+
+footer img{
+    background-color:#EFFFCD;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%; 
+    height:28px;
+    background-color: #555152;
+    color:#EFFFCD;
+}
+
+footer p{
+    padding-left:1em;   
+
+}
+/*********************************************
+        Responsive bitch !!!!!!
+*********************************************/
+
+@media screen and (max-width:1700px){
+    .flex-container2{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        align-items:center;
+        background-color:#555152;
+        margin-top:1em;
+        margin-bottom:1.5em;
+        padding-top:1em;
+        padding-bottom:1em;
+        padding-left:1em;
+        padding-right:1em;
+        height:35%;
+        color: #EFFFCD;
+        font-size:1.8em;
+        text-align:center;
+    }
+    body{
+        margin-left:15%;
+        margin-right: 15%;
+        font-family:helvetica, sans-serif;
+    }
+}
+
+@media screen and  (max-width:1400px){
+    body{    
+        margin:auto;
+        font-family:helvetica, sans-serif;
+    }
+}
+
+@media screen and (max-width:600px){
+    h1{
+        font-size:1.2em
+    }
+}
